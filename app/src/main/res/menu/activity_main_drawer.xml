@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/history"
+            android:id="@+id/nav_History"
+            android:title="History"
+            />
+        <item
+            android:icon="@drawable/tax"
+            android:id="@+id/nav_Tax"
+            android:title="Tax %"
+            />
+        <item
+            android:icon="@drawable/settings"
+            android:id="@+id/nav_Settings"
+            android:title="Settings and Help" />
+    </group>
+</menu>
